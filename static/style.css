@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
 
-* {
+/* * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -91,4 +91,156 @@ ul {
 
 li {
     margin-bottom: 5px;
-}
+} */
+
+* {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+
+            background: linear-gradient(
+                135deg,
+                #4f73df,
+                #20c997
+            );
+
+            min-height: 100vh;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            padding: 30px;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 1050px;
+
+            background: white;
+
+            padding: 45px;
+
+            border-radius: 18px;
+
+            box-shadow:
+                0 15px 40px rgba(0, 0, 0, 0.2);
+        }
+
+        h1 {
+            text-align: center;
+
+            margin-top: 0;
+            margin-bottom: 45px;
+
+            color: #222;
+        }
+
+        label {
+            display: block;
+
+            font-size: 18px;
+
+            margin-bottom: 12px;
+        }
+
+        input[type="file"] {
+            width: 100%;
+
+            padding: 14px;
+
+            border: 1px solid #ccc;
+
+            border-radius: 7px;
+
+            margin-bottom: 35px;
+        }
+
+        textarea {
+            width: 100%;
+
+            min-height: 140px;
+
+            resize: vertical;
+
+            padding: 15px;
+
+            border: 1px solid #ccc;
+
+            border-radius: 7px;
+
+            font-size: 15px;
+
+            margin-bottom: 30px;
+        }
+
+        button {
+            width: 100%;
+
+            padding: 14px;
+
+            border: none;
+
+            border-radius: 7px;
+
+            background: linear-gradient(
+                90deg,
+                #4f73df,
+                #20c997
+            );
+
+            color: white;
+
+            font-size: 17px;
+
+            cursor: pointer;
+        }
+
+        button:hover {
+            opacity: 0.9;
+        }
+
+        .result {
+            margin-top: 30px;
+
+            padding: 25px;
+
+            background: #f7f8fc;
+
+            border-left: 5px solid #4f73df;
+
+            border-radius: 8px;
+        }
+
+        .result h2 {
+            margin-top: 0;
+
+            font-size: 28px;
+        }
+
+        .result h3 {
+            margin-bottom: 10px;
+        }
+
+        .score-description {
+            color: #555;
+
+            margin-bottom: 20px;
+        }
+
+        ul {
+            padding-left: 25px;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        .no-missing {
+            color: #16834b;
+
+            font-weight: bold;
+        }
